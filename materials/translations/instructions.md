@@ -4,13 +4,13 @@
   > Only this page will serve as reference; do not trust rumors.
 * Осторожно! Этот документ могут изменить за час до сдачи.
   > Watch out! This document could potentially change up to an hour before submission.
-* Эти упражнения аккуратно расставлены в порядке сложности – от легких к сложным. Мы не примем результаты аккаунта, если сложная задача была выполнена успешно, а легкая вовсе не функционировала.
- > These exercises are carefully laid out by order of difficulty - from easiest to hardest. We will not take into account a successfully completed harder exercise if an easier one is not perfectly functional.
-*  Будьте уверены, что ваши каталоги и файлы, в этих каталогах, имеют соответствующее права доступа.
+* Эти упражнения аккуратно расставлены в порядке сложности – от легких к сложным. Мы не примем во внимание, успешно выполненные сложные задачи, если легкие задачи не были верно выполнены.
+  > These exercises are carefully laid out by order of difficulty - from easiest to hardest. We will not take into account a successfully completed harder exercise if an easier one is not perfectly functional.
+* Будьте уверены, что ваши каталоги и файлы, в этих каталогах, имеют соответствующее права доступа.
   > Make sure you have the appropriate permissions on your files and directories.
-*  Вы должны следовать указаниями в каждой задаче.
+* Вы должны следовать указаниям в каждой задаче.
   > You have to follow the submission procedures for every exercise.
-*  Ваши задачи будут проверены и оценены вашими одноклассниками.
+* Ваши задачи будут проверены и оценены вашими одноклассниками.
   > Your exercises will be checked and graded by your fellow classmates.
 * Ко всему прочему, ваши задачи будут проверены и оценены программой Moulinette.
   > On top of that, your exercises will be checked and graded by a program called Moulinette.
@@ -37,12 +37,12 @@
 
 ---
 
-* Moulinette предвзята. Она не поймет и не затестит твой код, если он не соблюдает Norm'у. Moulinette основана на программе Norminator, которая проверяет файлы на соблюдение норм. TL;DR (too long; didn’t read / слишком длинно; не читал): будет тупо отправить часть работы, которая не будет проходить проверку Norminator’ом.
+* Moulinette предвзята. Она не поймет и не затестит твой код, если он не соблюдает Norm'у. Moulinette основана на программе Norminator, которая проверяет файлы на соблюдение норм. TL;DR (too long; didn’t read / слишком длинно; не читал): будет тупо отправить часть работы, которая не будет проходить проверку через Norminator.
   > Moulinette is not very open-minded. It won’t try and understand your code if it doesn’t respect the Norm. Moulinette relies on a program called Norminator to check if your ﬁles respect the norm. TL;DR: it would be idiotic to submit a piece of work that doesn’t pass Norminator’s check.
 
 * Использование запрещенных функций приравнивается к читерству. Читеры получат -42 и эта оценка не подлежит обсуждению.
   > Using a forbidden function is considered cheating. Cheaters get -42, and this grade is non-negotiable.
-* Если ft_putchar() будет авториз. функцией, то мы скомпилируем ваш кош с нашим ft_putchar.c.
+* Если ft_putchar() будет авторизованной функцией, то мы скомпилируем ваш код с нашим ft_putchar.c.
   > If ft_putchar() is an authorized function, we will compile your code with our ft_putchar.c.
 * Если мы попросим саму программу, то вам будет достаточно предоставить main() функцию.
   > You’ll only have to submit a main() function if we ask for a program.
