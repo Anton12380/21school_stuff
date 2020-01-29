@@ -57,63 +57,49 @@
 >
 > that's okay though, I know "cp". "cp source destination" source equals file, destination equals the directory, you'll notice that source destination is pretty standard in UNIX. So, "cp" "myfile" "myparentdirectory", in this case is my home directory.  if I do "ls" my file is still here and if I do "cd" then "ls" my files also here as it's been copied. If I remove this one with "rm" the file is gone, but the original copy is still there.
 
-Ничего страшного, я ведь знаю команду "cp". "cp soure destination", source - это ваш файл, destination - каталог, вы потом еще заметите, что source и destination довольно таки стандартизировано в UNIX. И так, "cp" "myfile" "myparentdirectory", в данном случае это "home" каталог. Теперь, если я сделаю "ls" то мой файл все еще здесь, а если я сделаю "cd", потом "ls", то мой файл также здесь, так как я его скопировал. Если я удалю файл через "rm", то он исчезнет, но его копия останется здесь.
+Ничего страшного, я ведь знаю команду "cp". "cp soure destination", source - это ваш файл, destination - каталог, вы потом еще заметите, что source и destination довольно стандартизированы в UNIX. И так, "cp" "myfile" "myparentdirectory", в данном случае это "home" каталог. Теперь, если я сделаю "ls" то мой файл все еще здесь, а если я сделаю "cd", потом "ls", то мой файл также здесь, так как я его скопировал. Если я удалю файл через "rm", то он исчезнет, но его копия останется здесь.
 
 > Mai departe: l-am copiat, dar voiam sa-l mut (m-am încurcat prima data, nu sunt prea talentat). Imi zic, de data asta chiar il voi deplasa: deci exista o comanda care se numește "mv". Toate comenzile in Unix, ca regula generala, au o logica. "cp" - copiez, "mv" - "move", "ls" - listez, si asa mai departe. Deci "mv", sursa, si destinația. Acum daca fac "ls", nu mai e aici, "30_1estgentil” a plecat, si e aici. In plus veți vedea ce data e aici, deci ca a fost mutat acum.
+>
+> Further: I copied it, but I wanted to move it (I got confused the first time, I'm not too talented). I tell myself, this time I will actually move it: so there is a command called "mv". All Unix commands, as a general rule, have a logic. "cp" - copy, "mv" - "move", "ls" - list, and so on. So "mv", the source, and the destination. Now if I do "ls", he is not here anymore, "30_1stgentil" is gone, and he is here. In addition you will see what date he is here, so he has been moved now.
+
+I've created a copy of my file but I wanted to move it. I'm gonna try again and this time I'll get it right and move it, not copy it. so I'm going to try "mv". All UNIX command lines are pretty straight for a copy. CP equals copy, mv equals move, LS equals list etc. So, MV the source, and the destination. if we do LS we can see that it's gone. if we do CD then LS, here it is. little extra, date we can see that the time stamp matches my last change.
 
 > Asa, deci știu deplasa, știu copia, știu șterge (asa, deci a dispărut), ne mai ramane un lucru de văzut, "chmod". "chmod”, cum indica si numele, schimba "modul", schimba drepturile pentru a fi mai exact. Revin in directorul meu. Un mic sfat, Unix e "case sensitive", bănuiesc ca stiati, dar in caz ca nu, asta inseamna ca daca puneți o majuscula in numele fișierului vostru, tine cont de majuscula. Puteti avea doua fișiere cu același nume, unul cu majuscule, unul cu litere mici, nu e același fișier. Deci "chmod", fac un "touch", asa, mi-am creat fișierul.
+>
+> So, so I know the move, I know the copy, I know delete (so it disappeared), we still have something to see, "chmod". "chmod", as the name indicates, change the "mode", change the rights to be more accurate. I'm back in my directory. A little advice, Unix is "case sensitive", I guess you knew, but in case you don't, that means like if you put a capital letter in the name of your file, you capitalize it. You can have two files with the same name, one with uppercase letters, one with lowercase letters, it's not the same file. So "chmod", I make a "touch", I created my file.
 
-> O data creat, aveți ca de obicei numele, si drepturile asociate.
+so, now I know how to move, how to copy and how to delete / erase (see, it's gone). last topic for day is chmod. changes modes as its name suggest it. it changes permissions to be exact. let's go back to my directory. little warning, UNIX is very case sensitive, I suppose you already knew that, but just in case you didn't, which means that if you add an uppercase letter to a filename that doesn't have any - it'll take that into account. you could have two files of the same name, one in uppercase, the other in lowercase, those two files are different. back to chmod, so touch new file.
 
-> Deci, nu are "d", e un fișier, "r" pentru "read", "w" pentru "write", "x" pentru "execute".
+И так, теперь я знаю как перемещать, копировать и удалять (видите? все пропало). Последняя тема на сегодня - это "chmod". chmod расшифровывается - сhange mode. Если быть точнее, то она изменяет права доступа. Давайте вернемся обратно к моему каталогу.
 
-> De fiecare data veți avea drepturile voastre (unu, doi, trei),
+> O data creat, aveți ca de obicei numele, si drepturile asociate. Deci, nu are "d", e un fișier, "r" pentru "read", "w" pentru "write", "x" pentru "execute". De fiecare data veți avea drepturile voastre (unu, doi, trei), drepturile pentru cei din același grup ca voi (care e grupul "staff' in cazul de fata), Si drepturile pentru restul planetei. Adică cei care nu sunt in grupul vostru, si care nu ești tu.
+>
+> Once created, you usually have the name, and associated rights. So it doesn't have "d", it's a file, "r" for "read", "w" for "write", "x" for "execute". Each time you will have your rights (one, two, three), rights for those in the same group as you (which is the "staff" group in this case), and rights for the rest of the planet. , and who you are not.
 
-> drepturile pentru cei din același grup ca voi (care e grupul "staff' in cazul de fata),
+LS and it's here. you know those columns layout, remember the permissions column, there's no D here so we're sure it's a file, R for read, W for write and X for execute. the first set of three letters are WX are your permissions for that file. the second set of three letters are the permissions for your group, in this case the group, in this case group is staff. and the third set is for the rest of the world, meaning people who aren't in your group.
 
-> Si drepturile pentru restul planetei. Adică cei care nu sunt in grupul vostru, si care nu ești tu.
+> Va voi da doua exemple, si apoi va veți descurca cu "man", experimentând si vazand ce se intampla. Dacâ fac un "chmod.OOO" deci 0 pentru mine, 0 pentru cei din grupul meu, 0 pentru planeta intreaga, cu numele fișierului meu, ce se intampla: nu mai e nici un drept pe fișier. Imi veți spune, cum pot schimba acum drepturile? Unix e inteligent, știe ca e fișierul vostru, va aparține.
+>
+> I will give you two examples, and then you will deal with "man", experimenting and seeing what happens. If I make a "chmod.OOO" so 0 for me, 0 for those in my group, 0 for the entire planet, with the name of my file, what happens: there is no file right anymore. You will tell me, how can I change the rights now? Unix is smart, it knows it's your file, it will belong.
 
-> Va voi da doua exemple, si apoi va veți descurca cu "man", experimentând si vazand ce se intampla.
+I'm going to show you a couple of things, as for the rest, you can figure it out for yourselves like grown-ups with the man page. if we type chmod 000 *my file*, so 0 for me, 0 for my group, 0 for the rest. what happens? try LS -La. check up the permissions column, no more permissions for anybody. you're going to ask well how do I regain permissions. UNIX is intelligence it knows it's your file and it belongs to you.
 
-> Dacâ fac un "chmod.OOO" deci 0 pentru mine, 0 pentru cei din grupul meu, 0 pentru planeta intreaga, cu numele fișierului meu,
+> Daca faceți "7" pentru voi, deci "700", Enter, si faceți un "ls -la" (atentie, doar "ls" nu va afiseaza drepturile), "ls -la" si numele de fișier, am deci drepturile de citire, scriere, executare. Grupul meu nu are drepturi, si restul planetei nu are drepturi. Daca altcineva decât voi incearca sa citească fișierul vostru, nu va avea acces. Nici la citire, nu va putea face "cat" pe el, nu va putea sa-l copieze, nu va putea face nimic cu el.
+>
+> If you make "7" for yourself, then "700", Enter, and you make an "ls -la" (attention, only "ls" will not display your rights), "ls -la" and the file name, so I have the rights to reading, writing, executing. My group has no rights, and the rest of the planet has no rights. If someone other than me tries to read your file, it won't have access. Even when reading, he will not be able to "do" it, he will not be able to copy it, he will not be able to do anything with it.
 
-> ce se intampla: nu mai e nici un drept pe fișier.
+So if you type chmod 700 *myfile* :  7 four you, 0 for your group and the rest. ls -la, simple ls doesn't give you info on permission. and now I have the read write and execute permissions, both my group and rest of the world have no permissions. if someone other than you tries to access this file - they won't be able to. they won't be able to read it, do a cat on it, copy it or anything else.
 
-> Imi veți spune, cum pot schimba acum drepturile? Unix e inteligent, știe ca e fișierul vostru, va aparține.
+> Daca vreau de exemplu sa fac ca oamenii sa poate doar citi fișierul meu, ”644”, si ce se intampla acum? Eu am drepturile de citire si scriere. Ati remarcat ca am îndepărtat "x"-ul, care se refera la executare pentru fișierele binare, aici e un fișier text, n-avem nevoie sa-l executam, deci l-am sters, nu folosește la nimic. Grupul meu poate citi, si restul planetei poate citi. In schimb nu au "w"-ul, deci nu au drepturile de scriere, si nu vor putea sa scrie in fișier. Daca vin in directorul vostru, si fac un "cat" si numele de fișier, cum v-am aratat inainte, vor vedea ce e in el. In cazul de fata e gol, dar vor vedea ce e in el.
+>
+> If I want, for example, to make people just read my file, "644", and what's happening now? I have the rights to read and write. You noticed that I removed the "x", which refers to execution for binary files, here is a text file, we don't need to execute it, so I deleted it, it doesn't use anything. My group can read, and the rest of the planet can read. Instead they do not have the "w", so they do not have the writing rights, and will not be able to write to the file. If I come to your directory, and make a "cat" and file name, as I showed you before, they will see what's in it. In this case it is empty, but they will see what's in it.
 
-> Daca faceți "7" pentru voi, deci "700", Enter, si faceți un "ls -la" (atentie, doar "ls" nu va afiseaza drepturile),
+if I want to allow people to just read my file, chmod 644 *myfile*, what happened? I have the read and write permissions you'll notice my X has gone, I don't need it because my file is a text file, isn't a binary file, so I don't need to execute it. my group can read and so can the rest of the world, however they don't have the W so they can't modify it, but if they go into your directory and throw a cat they can read all of its contents. in this case it's empty but if it wasn't they could check it out.
 
-> "ls -la" si numele de fișier, am deci drepturile de citire, scriere, executare.
+> Deci "chmod" e un pic complicat la inceput, va trebui sa va obisnuiti, experimentați făceți teste, veți vedea de fiecare data ce se intampla de fiecare data când schimbați "chmod"-ul, "555" de exemplu pentru fanii Subaru, faceți "ls -la", si s-a intamplat ceva. Vedeți ce se intampla, incercati sa intelegeti, si nu va faceți probleme, chiar daca va stergeti toate drepturile, putem sa vi le redăm.
+>
+> So "chmod" is a bit tricky at first, you will have to get used to it, experiment, do tests, you will see every time it happens every time you change "chmod", for example "555" for Subaru fans, do "ls-her", and something happened. See what happens, try to understand, and do not worry, even if you delete all your rights, we can restore them.
 
-> Grupul meu nu are drepturi, si restul planetei nu are drepturi.
-
-> Daca altcineva decât voi incearca sa citească fișierul vostru, nu va avea acces.
-
-> Nici la citire, nu va putea face "cat" pe el, nu va putea sa-l copieze, nu va putea face nimic cu el.
-
-> Daca vreau de exemplu sa fac ca oamenii sa poate doar citi fișierul meu,
-
-> ”644”, si ce se intampla acum?
-
-> Eu am drepturile de citire si scriere.
-
-> Ati remarcat ca am îndepărtat "x"-ul, care se refera la executare pentru fișierele binare,
-
-> aici e un fișier text, n-avem nevoie sa-l executam, deci l-am sters, nu folosește la nimic.
-
-> Grupul meu poate citi, si restul planetei poate citi.
-
-> In schimb nu au "w"-ul, deci nu au drepturile de scriere, si nu vor putea sa scrie in fișier.
-
-> Daca vin in directorul vostru, si fac un "cat" si numele de fișier, cum v-am aratat inainte, vor vedea ce e in el.
-
-> In cazul de fata e gol, dar vor vedea ce e in el.
-
-
-> Deci "chmod" e un pic complicat la inceput, va trebui sa va obisnuiti,
-
-> experimentați făceți teste, veți vedea de fiecare data ce se intampla de fiecare data când schimbați "chmod"-ul,
-
-> "555" de exemplu pentru fanii Subaru, faceți "ls -la", si s-a intamplat ceva.
-
-> Vedeți ce se intampla, incercati sa intelegeti, si nu va faceți probleme, chiar daca va stergeti toate drepturile, putem sa vi le redăm.
+chmod is a little complicated at first, you'll need to get used to it.
+you should test it out with different combinations of digits to see what they do. for example what a chmod 555 do for all Subaru fans out there? ls -la something's happened, the permissions have changed. try and figure it out and don't worry if you accidentally remove all of your permissions you've got the power to reverse it.

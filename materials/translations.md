@@ -7,6 +7,7 @@
 * [cursus_manual.ru](../materials/translations/cursus_manual.ru.md)
 * [vogsphere-doc.ru](../materials/translations/vogsphere-doc.ru.md)
 * [the_art_of_peer_evaluation.ru](../materials/translations/the_art_of_peer_evaluation.ru.md)
+* [instructions.ru](../materials/translations/instructions.md)
 * [norme.ru](../materials/translations/norme.ru.md)
 * [videos](https://www.youtube.com/playlist?list=PLnI5O9CyX5MFaOvTB1EWSHFC7EzB61UIp)
   * Пока субтитры не готовы, есть черновой вариант и он в разделе `materials/translations/videos`. Все это переведу и сведу не скоро.
