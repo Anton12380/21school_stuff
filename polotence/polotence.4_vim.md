@@ -5,12 +5,24 @@
 Не вышел
 ```
 
-### 4.1 - Vim: [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim) ###
+### 4.1 - Vim: Шпаргалка ###
+```
+:term – открыть терминал в vim
+:q! – принудительно выйти
+:w – сохранить
+:wq – сохранить и выйти
+сtrl+w – переключаться между окнами
+
+Игра по vim: vim-adventures.com
+Шпаргалка: eax.me/vim-commands
+```
+
+### 4.2 - Vim: [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim) ###
 Устанавливаем плагин согласно инструкции, в пункте, где надо прописывать в ~/.vimrc (если его нет, то создайте этот файл) - комментируем дефолтные плагины, которые показаны для иллюстрации.
 * Если ставили zsh, то следуя одному из пункту установки – пишем в ~/.vimrc в конце файла, под всеми настройками.
 `set shell=/bin/zsh`
 
-### 4.2 - Vim: [NERDTree + nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
+### 4.3 - Vim: [NERDTree + nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 1. Прописываем в ~/.vimrc в разделе плагинов для Vundle
 ```
 Plugin 'scrooloose/nerdtree'
@@ -18,7 +30,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 ```
 2. Под Vundle прописываем настройки для плагина
 ```
-"/NERDTree settings/ 
+"/NERDTree settings/
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
@@ -39,7 +51,7 @@ let NERDTreeShowHidden=1
 ```
 3. Для установки и обновления плагином в vim пишем ```:PluginInstall```, чтобы открыть дерево используем ctrl+n, переключаться между окон в vim ctrl+w
 
-### 4.3 - Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight ###
+### 4.4 - Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight ###
 1. Создаем папку под настройки vim в домашнем каталоге, если ее там нет ```mkdir -p ~/.vim/colors```
 2.	Скачиваем, устанавливаем и удаляем скачанную папку
 ```
@@ -65,8 +77,9 @@ let g:airline_powerline_fonts = 1
 ```
 5.	Для установки и обновления плагинов через Vundle в vim пишем ```:PluginInstall``` и перезагружаем терминал
 
-### 4.4 - Vim: 42header ###
-Обязательный заголовок школы 42, без него Normanette будет ругаться, а Moulinette откажется проверять.     
+### 4.5 - Vim: 42header ###
+❗️ Плагин нужен только тем, кто работает на своем пк / ноутбуке. На компьютерах Школы все и так прекрасно работает. ❗️
+Обязательный заголовок школы 42, без него Normanette будет ругаться, а Moulinette откажется проверять.
 1.	Создаем папку под vim плагины в домашнем каталоге, если ее там нет ```mkdir -p ~/.vim/after/plugin```
 2.	Скачиваем, перемещаем и удаляем из дом.каталога
 ```
@@ -77,11 +90,11 @@ git clone https://github.com/pandark/42header.vim.git ~/42header.vim && mv -v ~/
 export USER=*username*
 export MAIL=*usermail*
 ```
-4.	Перезагружаем терминал и тестим командой ```:FortyTwoHeader``` в vim 
-5.	Чтобы поменять с :FortyTwoHeader на :Stdheader - измените строку 187 в ~/.vim/after/plugin/42header.vim на ```command! Stdheader call s:fortytwoheader ()```.    
+4.	Перезагружаем терминал и тестим командой ```:FortyTwoHeader``` в vim
+5.	Чтобы поменять с :FortyTwoHeader на :Stdheader - измените строку 187 в ~/.vim/after/plugin/42header.vim на ```command! Stdheader call s:fortytwoheader ()```.
     * Чтобы забиндить Хедер на f5, пропишите ```nmap <f5> :Stdheader<CR>``` в файле ~/.vimrc (если его нет, то создайте)
 
-### 4.5 - Vim: Code lifehack's ###
+### 4.6 - Vim: Code lifehack's ###
 Пропишите данные команды в конце файла vim ~/.vimrc:
 ```
 "/Code lifehack's/
@@ -126,14 +139,4 @@ set tabstop=4
 "определяет ширину 1ой Tab'уляции в 4 пробела, при сдвиге выделенного вертикального блока вправо
 set shiftwidth=4
 
-```
-
-### 4.6 - Vim: подсказки по работе ###
-```
-https://vimhelp.org/terminal.txt.html#terminal-use
-:term – открыть терминал в vim
-:q! – принудительно выйти
-:w – сохранить
-:wq – сохранить и выйти
-сtrl+w – переключаться между окнами
 ```

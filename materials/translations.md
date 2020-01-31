@@ -9,6 +9,7 @@
 * [the_art_of_peer_evaluation.ru](../materials/translations/the_art_of_peer_evaluation.ru.md)
 * [instructions.ru](../materials/translations/instructions.md)
 * [norme.ru](../materials/translations/norme.ru.md)
+* [exam.ru](https://github.com/burninggoose/42-exam-ru)
 * [videos](https://www.youtube.com/playlist?list=PLnI5O9CyX5MFaOvTB1EWSHFC7EzB61UIp)
   * Пока субтитры не готовы, есть черновой вариант и он в разделе `materials/translations/videos`. Все это переведу и сведу не скоро.
   * Для каждого видео я включил настройку "помощь сообщества". Это означает, что вы можете предложить сами свои варианты переводов, которые будут опубликованы в субтитрах к видео (у других стран есть, а у нас нет!? Тогда построим свой собственный перевод, с блекджеком и матрешками).
