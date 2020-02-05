@@ -122,7 +122,7 @@
     > Each operator (binary or ternary) or operand must be separated by one - and only one - space.
 11.	За каждым ключевым словом С должен идти пробел, за исключением ключевых слов для типов (таких как int, char, float, и т.д.), а также sizeof.
     > Each C keyword must be followed by a space, except for keywords for types (such as int, char, ﬂoat, etc.), as well as sizeof.
-12. Каждое объявление переменной должно иметь отступ в том же столбце. :🚩некор._перевод🚩:
+12. Каждое объявление переменной должно находиться друг под другом, в одной колонке.
     > Each variable declaration must be indented on the same column.
 13.	Звездочки указателей должны быть вплотную к названиям переменных.
     > The asterisks that go with pointers must be stuck to variable names.
