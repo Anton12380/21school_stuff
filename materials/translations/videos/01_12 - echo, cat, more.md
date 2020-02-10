@@ -1,26 +1,31 @@
 > Buna ziua tuturor, si bine ati venit la a doua zi de "shell".
 
-Привет всем, и добро пожаловать в день посвященный "shell".
+Привет всем, и добро пожаловать в следующий день, который посвященный "shell".
 
 > leri ati vazut comportamentul de baza al "shell"-ului, ati putut vedea cum sa va deplasati untr-un director, cum sa creați un nou director, cum sa redenumiti un fișier, etc.
 
-Вчера вы увидели базовое поведение «shell» оболочки. Вы могли видеть, как перемещать каталог, как создать новый каталог, как переименовать файл и т. д.
+how to move around directories, how to create directories or files, how to rename files etc.
+
+
+Вчера вы увидели базовые действия с "shell" оболочкой. Как перемещать каталоги, создавать каталоги или файлы, как переименовывать файлы и т.д..
 
 > Astăzi ne vom concentra pe tratarea conținutului unui fișier.
+> > De exemplu, sa-l afișam, sa-l filtram si chiar sa-l modificam.
 
-Сегодня мы сосредоточимся на работе с содержимым файла.
 
-> De exemplu, sa-l afișam, sa-l filtram si chiar sa-l modificam.
+today's focus will be on file content processing, for example how to display it, to filter it or even how to modify it.
 
-Например: отобразите его, отфильтруйте и даже отредактируйте.
+Сегодня мы сосредоточимся на обработке содержимого файла. К примеру как вывести вывести на экран, как отфильтровать или даже изменить его.
 
-> i vom vedea o a doua noțiune care e foarte importanta, redirectarfl.
+> i vom vedea o a doua noțiune care e foarte importanta, redirectarfl. Redirectarile sunt ceva ce veți folosi foarte mult pentru toata piscina si de-a lungul intregii voastre vieți de programator.
+>
+> we will see a second notion that is very important, redirectarfl. Redirects are something you will use a lot for the entire pool and throughout your entire life as a programmer.
+>
+> Мы увидим второе очень важное понятие - Перенаправления. Перенаправления - это то, что вы будете часто использовать во время всего бассейна и на протяжении всей своей жизни как программиста.
 
-Мы увидим второе очень важное понятие - Перенаправления.
 
-> Redirectarile sunt ceva ce veți folosi foarte mult pentru toata piscina si de-a lungul intregii voastre vieți de programator.
+we'll also cover something else that's very important called redirection
 
-Перенаправления - это то, что вы будете часто использовать во время всего бассейна и на протяжении всей своей жизни как программиста.
 
 > Deci vom incepe cu comenzile de afișare, care va vor permite sa afișați lucruri in ieșirea standard (vom vedea ce inseamna aceste "lucruri”).
 
