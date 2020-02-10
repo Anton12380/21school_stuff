@@ -4,8 +4,8 @@
 ### 5.1 - Code check: Norminette ###
 Проверка кода на соответствие нормам  
 В школе. Проверка файлов стандартной Norminette:
-   * Для проверки использовать команду norminette -R CheckForbiddenSourceHeader в директ. с программой на с
-   * Для проверки файлов типа *.h используется только norminette, без флагов
+   * Для проверки использовать команду norminette -R CheckForbiddenSourceHeader в каталоге файлов типа .с
+   * Для проверки файлов типа .h используется только norminette, без флагов
    * Альяс, который упрощает работу. В файле ~/.zshrc пропишите следующую строку (если файла ~/.zshrc нет то создайте его):
    ```alias norm="norminette -R CheckForbiddenSourceHeader"```. Затем перезапустите терминал и набирите norm.
 
@@ -16,7 +16,8 @@
     ```alias norm="cd /mnt/d/Work/21school/21school_piscine-c/.debug/ && mono appRegex.exe && cd -"``` Затем перезапустите терминал и набирите norm.
 
 ### 5.2 - Code check: 42Stupidity ###
-Компилирует, тестит (~Moulinette) и проверяет официальной Norminette (если вы залогинились в системе школы).
+❗️ Не стоить думать, что ваш код идеален, если он прошел все тесты 42Stupidity. Я вас предупредил. ❗️
+Компилирует, тестит и проверяет официальной Norminette.
 1.	Клонируем репоз. в домашний каталог в новую папку 42Stupidity
 ```
 git clone https://github.com/mirror12k/42us-stupidity.git ~/42Stupidity
