@@ -2,6 +2,7 @@
 
 ### 3.1 - Extensions ###
 Easy Code
+   * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
    * [Тема one-monokai / Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
    * [Color Highlight / #RGB](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
    * [Trailling spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)

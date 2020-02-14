@@ -1,3 +1,36 @@
+> Let's check out a few new commands that'll be very practical and simple too. We won't go into to much detail. The first command is called "wc" it simply calculates the number of lines, characters, and words within a file. So if I take our example file, and do a "wc" on it, we can see there are 400 lines, 405 words and 7446 characters in it. "wc" can take more than one file as a parameter. so doing "wc *" will give me the total number of lines, words and characters for all files in the directory. This command, just like any other commands we've seen can read on the standard input. So if I do "cat" on our file, and retrieve the number of Thomas and then redirect it with "wc -l" to get only the number of lines... I can see that there are 7 Thomas in the database. It's quite practical for counting results. Another basic command, the command "file", "file" will simply give us info on a file passed as a parameter. Here we can see that this file is in UFT-8 and that it's a text file so it's got a mime-type that corresponds to text we can see it's 'magic', etc... Another command: "ifconfig" which gives info on your network. With "ifconfig" you can display your IP and your MAC addresses, etc... Last simple command (more or less) the "bc" command. "bc" is very simple, it's a calculator. So if you type 2 + 3, it'll return 5.
+
+Давайте рассмотрим несколько новых команд, которые тоже являются практичными и простыми. В подробности мы вдаваться не будем. Первая команда называеся "wc", которая просто считает число строк, символов и слов в файле.
+Итак, если я возьму наш файл, для примеров и выполним "wc" на нем, то мы увидим, что в нем 400 строк, 405 слов и 7446 символов.
+"wc" может принимать более одного файла, в роли параметра. Итак, выполнив "wc *" я получу общее кол-во строк, слов и символов для всех файлов в текущем каталоге.
+Эта команда, как и любые другие команды, которые мы видели, может считать ст.п.ввода. Итак, если я выполню "cat" на нашем файле, и получу определенное число пользователей с именем "Thomas", и потом перенаправлю это с "wc -l", чтобы получить только число строк, и теперь я вижу, что в базе данных всего 7 Thomas'ов.
+это вполне пракично для подсчета результатов. Другая базовая команда "file", "file" - попросту выдаст нам info о файле, который прописан в роли параметра.
+Тут мы видим. что этот файл имеет формат UFT-8 и что это текстовый файл, поэтому у него есть MIME-тип, который относится к тексту, мы также можем увидеть, что он "magic" и т.д.
+Другая команда: "ifconfig" которая выдает информацию о вашей сети. С помощью "ifconfig" вы можете отобразить ваш IP и MAC адреса, и т.д.
+Последняя (более или менее простая) команда - "bc". "bc" - очень проста, это калькулятор. Если вы напишите "2 + 3", то он вернет вам 5.
+
+
+
+However, "bc" is very powerful ! It can run scientific calculations, such as sine, cosine, exponents, powers etc... It can convert number bases: start with a base-two, and return the result in base 16, etc. So "bc" is quite practical, and on top of that it reads from the standard input, so if I do "echo 1 + 2" and pipe it in "bc" it'll return 3.
+
+Let's say I want to calculate the number of lines, or something like that, "bc" allows me to do so. The last command we'll see in this video, is slightly more complicated, but not that hard. The command "find".
+
+By default, "find" lists all files within a directory passed as an argument. So if we do "find ." it'll list all files present in the current directory. If we do "find /usr", it'll list all files in /usr. Please not it searches recursively so it also goes through sub-directories.
+
+"find" is powerful, because it allows us to filter files we want. Simple filtering example : Filter by name. let's say I want all files starting by "ls"... we can see it returns all related files.
+
+We can also filter by last modification date, filter by size, filter depending on whether it's a file, a directory or an executeable. It also allows you to perform actions on files... we can display them, delete them, or even run other commands.
+
+If you want to know more about its capabilities, read its "man", look it up on the internet, check how people use it, possibilities are endless. Last thing I'd like us to see... The Environment. What is it? It's simply a list of variables in Shell, that'll be automatically sent to all your binaries and scripts.
+
+So if we do "env", it'll display the list of variables. We can see that it works by a key/value system. So PATH has all this value. PATH can be used to tell the Shell where to look for binaries.
+
+Here you can see that the user is called "bocal" You can see the terminal used, here it's xTerm, etc... So what's it good for? You can use it to configure your Shell scripts. Let's say we want to add a variable LINE, corresponding to the line number the script seeks, We can do LINE = 3.
+
+If we look at then environment, the LINE variable has been created with a value of 3. if you want to access it, just type "$LINE". If we do an "echo" of the "$LINE" variable, 3 will be displayed... because $LINE will simply get replaced by its value.
+
+So those variables should allow you to configure your Shell scripts, and later on, help you configure what we call Makefiles to change behaviors depending on environment variables.
+
 > Vom vedea acum un mic numar de comenzi care va vor fi foarte utîle. 
 
 We will now see a small number of commands that will be very useful to you.
