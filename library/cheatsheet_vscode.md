@@ -1,6 +1,6 @@
-# 3. Visual Studio Code #
+# Cheatsheet - VSCode #
 
-### 3.1 - Extensions ###
+### 1 - Extensions ###
 Easy Code
    * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
    * [Тема one-monokai / Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
@@ -13,9 +13,9 @@ Easy Code
    * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
    * [C# Colors](https://marketplace.visualstudio.com/items?itemName=logerfo.csharp-colors)
    * [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+   * [favorites](https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-favorites)
 
 Comment
-   * [42 Header bind](https://marketplace.visualstudio.com/items?itemName=kube.42header)
    * [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
    * [Better Comment / через Ctrl+/](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.bettercomment)
    * [Comment divider](https://marketplace.visualstudio.com/items?itemName=stackbreak.comment-divider)
@@ -28,14 +28,14 @@ GitHub Markdown
 Other
    * [pdf preview](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
-### 3.2 - settings.json ###
+### 2 - settings.json ###
 ```
 {
   "editor.minimap.enabled": false,     // disable mini-map
 }
 ```
 
-### 3.3 - Windows 10: Code Debug with Mingw-w64 ###
+### 3 - Windows 10: Code Debug with Mingw-w64 ###
 Установка [Mingw-w64](https://code.visualstudio.com/docs/cpp/config-mingw):
 1. Скачиваем [Mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds) через Sourceforge и запускаем установщик. Прописываем путь установки в `C:\`
 2. Для возможности использования инструментов в cmd.exe: перейдите в Мой компьютер / Свойства / Дополнительные параметры системы / Дополнительно / Переменные среды / Переменные среды для пользователя Username / Path → Изменить → Создать `C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin`.
