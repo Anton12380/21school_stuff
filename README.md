@@ -6,7 +6,7 @@
   
 Если хотите помочь с репозиторием, то пишите мне в личные сообщения или делайте pull request. Я всегда буду рад всем тем, кто желает помочь с этим путеводителем, который был создан для тех, кто немного начинает тонуть.
   
-<img src=".src/logo_discord.png" width="25"> Наш [Discord канал](https://discord.gg/DdegUna)
+<img src=".src/logo_discord.png" width="25"> Наш [Discord канал](https://discord.gg/VwpeSFw)
 
 ---
 
